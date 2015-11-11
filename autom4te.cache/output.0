@@ -15116,7 +15116,7 @@ GTEST_LIBADD="$GTEST_HOME/lib/libgtest.a $GTEST_HOME/lib/libgtest_main.a"
 
 
 
-ac_config_files="$ac_config_files Makefile autotype/Makefile delegating_constructors/Makefile delete_default_func/Makefile lambda/Makefile nullptr/Makefile rvalue_reference/Makefile uniform_initialize/Makefile"
+ac_config_files="$ac_config_files Makefile autotype/Makefile delegating_constructors/Makefile delete_default_func/Makefile lambda/Makefile nullptr/Makefile rvalue_reference/Makefile uniform_initialize/Makefile chrono/Makefile"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -16248,6 +16248,7 @@ do
     "nullptr/Makefile") CONFIG_FILES="$CONFIG_FILES nullptr/Makefile" ;;
     "rvalue_reference/Makefile") CONFIG_FILES="$CONFIG_FILES rvalue_reference/Makefile" ;;
     "uniform_initialize/Makefile") CONFIG_FILES="$CONFIG_FILES uniform_initialize/Makefile" ;;
+    "chrono/Makefile") CONFIG_FILES="$CONFIG_FILES chrono/Makefile" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;
   esac

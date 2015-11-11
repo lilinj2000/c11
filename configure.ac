@@ -66,4 +66,5 @@ AC_OUTPUT([
 	lambda/Makefile
 	nullptr/Makefile
 	rvalue_reference/Makefile
-	uniform_initialize/Makefile])
+	uniform_initialize/Makefile
+	chrono/Makefile])

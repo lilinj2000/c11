@@ -320,7 +320,8 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 AUTOMAKE_OPTIONS = foreign
 SUBDIRS = autotype delegating_constructors delete_default_func \
-	  lambda nullptr rvalue_reference uniform_initialize
+	  lambda nullptr rvalue_reference uniform_initialize \
+	  chrono
 
 all: all-recursive
 
