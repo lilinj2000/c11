@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT(c11, 0.1, lilinjiang@gmail.com)
+AC_INIT(c11, 0.1, lilinj2000@gmail.com)
 AC_CONFIG_SRCDIR([])
 #AC_CONFIG_HEADERS([config.h])
 
@@ -40,16 +40,12 @@ AC_SUBST(LT_AGE)
 
 home_3rd=~/3rd
 
-if test -d /llj/3rd ; then
-   home_3rd=/llj/3rd
-fi
-
 dnl gtest lib
 AC_ARG_WITH([gtest],
     [AS_HELP_STRING([--with-gtest],
-        [home path of the gtest, defaults to $home_3rd/gtest])],
+        [home path of the gtest, defaults to $home_3rd/googletest])],
     [GTEST_HOME="$withval"],
-    [GTEST_HOME="$home_3rd/gtest"])
+    [GTEST_HOME="$home_3rd/googletest"])
 AC_SUBST([GTEST_HOME])
 
 GTEST_CPPFLAGS=-I$GTEST_HOME/include
