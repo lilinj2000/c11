@@ -1,0 +1,5 @@
+#include "ArrayTest.cc"
+#include "ChronoTest.cc"
+#include "IOTest.cc"
+#include "SetTest.cc"
+#include "TypeInfoTest.cc"
