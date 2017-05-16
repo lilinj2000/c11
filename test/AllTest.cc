@@ -1,4 +1,5 @@
 #include "ArrayTest.cc"
+#include "AutoTest.cc"
 #include "ChronoTest.cc"
 #include "IOTest.cc"
 #include "SetTest.cc"
