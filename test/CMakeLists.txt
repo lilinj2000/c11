@@ -29,6 +29,7 @@ cxx_test(auto_test AutoTest.cc)
 cxx_test(io_test IOTest.cc)
 cxx_test(set_test SetTest.cc)
 cxx_test(type_info_test TypeInfoTest.cc)
+cxx_test(lambda_test LambdaTest.cc)
 cxx_test(all_test AllTest.cc)
 
 # add_executable(chrono_test ChronoTest.cc)

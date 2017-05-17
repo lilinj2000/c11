@@ -4,3 +4,4 @@
 #include "IOTest.cc"
 #include "SetTest.cc"
 #include "TypeInfoTest.cc"
+#include "LambdaTest.cc"
