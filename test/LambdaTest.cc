@@ -186,3 +186,15 @@ TEST(LambdaTest, ExceptionExpressionTest) {
 
   SUCCEED();
 }
+
+TEST(LambdaTest, FibonacciTest) {
+  std::function<int(int)> fib = [&fib](int n) {return n < 2 ? 1 : fib(n-1) + fib(n-2);};
+
+  EXPECT_EQ(fib(0), 1);
+  EXPECT_EQ(fib(1), 1);
+  EXPECT_EQ(fib(2), 2);
+  EXPECT_EQ(fib(3), 3);
+  EXPECT_EQ(fib(4), 5);
+  EXPECT_EQ(fib(5), 8);
+  EXPECT_EQ(fib(6), 13);
+}
