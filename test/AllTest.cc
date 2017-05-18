@@ -5,3 +5,4 @@
 #include "SetTest.cc"
 #include "TypeInfoTest.cc"
 #include "LambdaTest.cc"
+#include "AlignofTest.cc"
