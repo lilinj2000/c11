@@ -1,8 +1,12 @@
-#include "ArrayTest.cc"
-#include "AutoTest.cc"
-#include "ChronoTest.cc"
-#include "IOTest.cc"
-#include "SetTest.cc"
-#include "TypeInfoTest.cc"
-#include "LambdaTest.cc"
-#include "AlignofTest.cc"
+// Copyright (c) 2010
+// All rights reserved.
+
+#include "ArrayTest.cc"  // NOLINT
+#include "AutoTest.cc"   // NOLINT
+#include "ChronoTest.cc" // NOLINT
+#include "IOTest.cc"     // NOLINT
+#include "SetTest.cc"    // NOLINT
+#include "TypeInfoTest.cc"  // NOLINT
+#include "LambdaTest.cc"    // NOLINT
+#include "AlignofTest.cc"   // NOLINT
+#include "ThreadTest.cc"    // NOLINT

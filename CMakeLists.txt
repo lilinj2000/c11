@@ -35,6 +35,7 @@ cxx_test(set_test test/SetTest.cc)
 cxx_test(type_info_test test/TypeInfoTest.cc)
 cxx_test(lambda_test test/LambdaTest.cc)
 cxx_test(alignof_test test/AlignofTest.cc)
+cxx_test(thread_test test/ThreadTest.cc)
 cxx_test(all_test test/AllTest.cc)
 
 
