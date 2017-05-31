@@ -10,3 +10,4 @@
 #include "LambdaTest.cc"    // NOLINT
 #include "AlignofTest.cc"   // NOLINT
 #include "ThreadTest.cc"    // NOLINT
+#include "MutexTest.cc"    // NOLINT
